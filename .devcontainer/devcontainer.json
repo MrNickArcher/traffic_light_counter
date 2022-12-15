@@ -2,5 +2,10 @@
   "image": "mcr.microsoft.com/devcontainers/universal:2",
   "features": {
     "ghcr.io/devcontainers-contrib/features/hatch:1": {}
-  }
+  },
+  "extensions": [
+    "ms-python.python",
+		"ms-python.vscode-pylance",
+    "bungcip.better-toml"
+  ]
 }
